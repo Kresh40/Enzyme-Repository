@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", serif;
+}
+
+
+/******************************header*********************/
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto; 
+    padding: 17px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #menu-icon {
+    display: none;
+  }
+  
+  #cancel-icon {
+    display: none;
+  }
+  
+  /* #nav-ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 90px;
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  } */
+  
+  #nav-ul,a{
+    display: flex;
+    list-style-type: none;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .nav-link a:visited {
+    color: black;
+  }
+  
+  .nav-link a:hover {
+    color: #00c853;
+    border-bottom: 1.5px solid #00c853;
+  }
+  
+  #c-button {
+    background-color: rgb(4, 50, 3);
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 30px;
+  }
+  
+  #c-button:hover {
+    background-color: #00c853;
+  }
+
+  /************* section1 ***********/
+   .section1{
+     background: url("../assets/images/header-background.png");
+     text-align: center;
+     width: 100%;
+     padding: 70px 10px 100px 10px;
+     /* height: 200px; */
+   }
+   .section1 h1{
+     color: #ffff;
+     font-size: 50px;
+     text-align: center;
+     line-height: 100px;
+   }
+   .section1 p{
+    color: white;
+    font-size: 20px;
+   }
+
+
+  /*************** section2 ******************/
+
+  .section2{
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: ; */
+    /* height: 1000px; */
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .section2 div{
+     background-color: rgba(220, 220, 252, 0.4);
+     width: 20%;
+     /* height: 30px; */
+     /* border: 2px solid; */
+     padding: 30px 20px;
+     margin-bottom: 10px;
+  }
+
+  /*********** footer ***********/
+  .para-para{
+    font-size: 20px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border-color: green;
+  }
+  .logo-one{
+    /* border: 1px solid black; */
+    width: 150px;
+    /* margin-left: 50px; */
+  }
+  .text-one{
+    /* border: 1px solid black; */
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+  }
+  .enz{
+    width: 80px;
+    font-size: 20px;
+  }
+  .text-one a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 200%;
+  
+    
+  }
+  .support{
+    /* border: 1px solid black; */
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+  
+  }
+  .support a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 200%;
+  }
+  .bash{
+    /* border: 1px solid black; */
+    font-size: 15px;
+    width: 200px;
+    margin-top: 65px;
+    text-decoration: none;
+  }
+  .bash a{
+    color: white;
+    text-decoration: none;
+    line-height: 200%;
+  }
+  .locate{
+    
+    font-size: 20px;
+  }
+  .sup{
+    font-size: 20px;
+  }
+  .lagos{
+    font-size: 20px;
+  }
+  .abu{
+    font-size: 20px;
+  }
+  .tex{
+    font-size: 20px;
+  }
+  .nai{
+    font-size: 20px;
+  }
+  .dub{
+    font-size: 20px;
+  }
+  .lon{
+    font-size: 20px;
+  }
+  #locate{
+    /* border: 1px solid black; */
+    width: 150px;
+    margin-top: 62px;
+    text-decoration: none;
+  }
+  #locate a{
+    text-decoration: none;
+    color: white;
+  }
+  #container{
+    display: flex;
+    color: white;
+    gap: 40px;
+    background-color: rgb(4, 50, 3);
+  }
+  .contant{
+    /* border:1px solid black; */
+    width: 300px;
+    font-size: 20px;
+    margin: 20px 0 20px 30px;
+  }
