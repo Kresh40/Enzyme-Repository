@@ -133,6 +133,7 @@ body {
   display: flex;
   margin-top: 20px;
   gap: 10px;
+  color: white;
 }
 
 #hero-btn1 {
@@ -143,6 +144,8 @@ body {
 }
 #hero-btn2 a{
   text-decoration: none;
+  color: white;
+
 
 }
 
@@ -290,9 +293,10 @@ body {
   justify-content: space-between;
   /* border: 1px solid black; */
 }
+
 #hero-btn2-two{
-  background-color: white;
-  color: black;
+  background-color: inherit;
+  color: white ;
   border-radius: 30px;
   padding: 20px 70px;
   border: 2px solid green;
@@ -414,6 +418,12 @@ input{
   border-radius: 5px;
   font-size: 20px;
 }
+.email{
+  /* margin-right: 10px; */
+  padding-right: 85px;
+  margin-right: 85px;
+}
+
 .news{
   background-color: #00c853;
   padding-bottom: 50px;
